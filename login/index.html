@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splatter Run</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="login_style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
 <body>
@@ -13,12 +14,20 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
     <div class="container">
-        <input id="txtEmail" type="email" placeholder="Email">
-        <input id="txtPassword" type="password" placeholder="Password">
-        <button id="btnLogin" class="btn btn-action">Log in</button>
-        <button id="btnSignUp" class="btn btn-secondary">Sign Up</button>
-        <button id="btnLogout" class="btn btn-action hide">Log Out</button>
+        <div class="wrap">
+            <span class="login-title p-b-26">
+                Color Maze
+                </span>
+            <input id="txtEmail" type="email" placeholder="Email">
+            <input id="txtPassword" type="password" placeholder="Password">
+            <button id="btnLogin" class="btn btn-action">Log in</button>
+            <button id="btnSignUp" class="btn btn-secondary">Sign Up</button>
+            <button id="btnLogout" class="btn btn-action hide">Log Out</button>
+            <div id="text">
+            </div>
+        </div>
     </div>
+    <div class="info"></div>
     <script src='loginTest.js' type = 'module'></script>
 
     <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
