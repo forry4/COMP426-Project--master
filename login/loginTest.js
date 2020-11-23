@@ -65,6 +65,8 @@ export function signUp() {
             // console.log(firebaseUser)
             console.log('logged in as: ' + firebaseUser.email);
             btnLogout.classList.remove('hide');
+            let content = "<span class='text1'>Signup successful, press login to continue</span>"
+            $("#text").html(content);
         } else {
             console.log('not logged in');
             btnLogout.classList.add('hide');
