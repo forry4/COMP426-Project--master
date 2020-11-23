@@ -1,0 +1,28 @@
+.login-title {
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(16, 17, 16, 0.726);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.p {
+    padding-bottom: 25px;
+}
+
+.instructions {
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
